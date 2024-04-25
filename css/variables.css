@@ -2,6 +2,10 @@
     --color-primary: #33404F;
     --color-secondary: #00DDA3;
     --color-tertiary: #B5C5C3;
+    --white-color: #fff;
+
+    --space-layout-padding-lr: 0px 15px;
+    --space-layout-padding-tb: 5px;
 }
 
 @font-face {

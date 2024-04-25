@@ -4,4 +4,26 @@
     margin: 0;
     font-family: "SF-Pro-Text-Regular";
     box-sizing: border-box;
+    /* background-image: url("../storage/img/Frame\ 1.png"); */
+}
+
+.header{
+    padding: var(--space-layout-padding-lr);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 60px; */
+    background: red;
+}
+
+.header__Main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.header__Main p{
+    padding-left: 10px;
 }
