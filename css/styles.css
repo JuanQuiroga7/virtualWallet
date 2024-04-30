@@ -216,12 +216,15 @@ progress[value] {
     padding-left: 8px; 
 }
 
+.Transaction__list{
+    /* background: lightblue; */
+    height: 280px;
+    overflow: hidden;
+    margin-bottom: 64px;
+    padding-bottom: 10px;
+    overflow-y: scroll;
 
-
-
-
-
-
+}
 
 .footer{
     /* background: red; */
