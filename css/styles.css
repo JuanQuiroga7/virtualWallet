@@ -141,16 +141,20 @@ progress[value] {
     color: var(--color-primary);
 }
 
+
 .Activities{
-    padding-top: 10px;
     flex-direction: row;
     display: flex;
     justify-content: space-between;
-    padding: var(--space-layout-padding-lr);
+    overflow-x: auto;
+    scrollbar-width: none;
+    padding: 10px 15px;
+    gap: 22px;
 }
 
 .Activities div{
     background: var(--white-color);
+    color: var(--color-primary);
     width: 110px;
     height: 140px;
     padding: 10px;
@@ -160,13 +164,63 @@ progress[value] {
     flex-direction: column;
     justify-content: center;
     box-shadow: 0px 0px 15px var(--color-tertiary);
+    flex-shrink: 0;
 }
 
-
+.Transactions__h3{
+    margin-top: 20px;
+}
 
 .Transactions{
-
+    /* background: green; */
+    display: flex;
+    margin-top: 20px;
+    padding: var(--space-layout-padding-lr);
 }
+
+.Transactions__div {
+    /* background: moccasin; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Transactions__div strong{
+    font-family: "SF-Pro-Text-Bold";
+    color: var(--color-primary);
+}
+
+.Transactions__div span{
+    font-family: "SF-Pro-Text-Medium";
+    color: var(--color-tertiary);
+    font-size: small;
+}
+
+
+.transaction-details, .transaction-amount {
+    /* background: seagreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.transaction-amount{
+    align-items: flex-end;
+}
+
+.transaction-details {
+    /* background: yellowgreen; */
+    flex-grow: 1;
+    padding-right: 10px;
+    padding-left: 8px; 
+}
+
+
+
+
+
+
 
 
 .footer{
