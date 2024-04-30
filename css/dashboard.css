@@ -5,3 +5,70 @@
     font-family: "SF-Pro-Text-Regular";
     box-sizing: border-box;
 }
+
+.header{
+    padding: var(--space-layout-padding-lr);
+    padding-top: var(--space-layout-padding-tb);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* background: red; */
+}
+
+.header img{
+    width: 30px;
+}
+
+.header__Main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+h1 {
+    padding-left: 10px;
+    font-family: "SF-Pro-Text-Bold";
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: var(--color-primary);
+}
+
+
+
+
+
+
+
+
+.footer{
+    /* background: red; */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer__ul{
+    background: var(--color-primary);
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+}
+
+.footer__ul li a{
+    /* background: green; */
+    width: 24px;
+    height: 24px;
+}
+
+.footer__ul li a img{
+    object-fit: contain;
+    /* background: mediumturquoise; */
+    width: 35px;
+    height: 35px;
+}
