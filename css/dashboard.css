@@ -132,30 +132,124 @@ h1 {
 }
 
 .Cards-Boxes{
-    background: darkcyan;
+    /* background: darkcyan; */
     margin-top: 10px;
     flex-direction: row;
     display: flex;
     justify-content: space-between;
-    /* overflow-x: auto; */
-    /* scrollbar-width: none; */
-    padding: 10px 15px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    padding: 10px 5px;
     gap: 22px;
 }
 
-.card-one{
+.card-one {
+    position: relative; 
     background: var(--color-primary);
     background-image: url("../storage/img/Card-Background.svg");
+    background-position: 30%;
     width: 200px;
     height: 311px;
     color: var(--white-color);
-    padding: 10px;
+    padding: 18px 20px 10px 20px;
     border-radius: 8%;
     display: flex;
-    align-items: center;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    flex-shrink: 0;
 }
+
+.card-one > div:first-child {
+    /* background: magenta; */
+    font-size: 12px;
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.card-one > div:first-child img{
+    width: 22px;
+    height: 30px;
+}
+
+.card-one > div:last-child {
+    /* background: violet; */
+    align-self: flex-start;
+}
+
+.card-one > div:last-child img{
+    width: 40px;
+    height: 30px;
+}
+
+.card-one > div:nth-child(2) {
+    /* background: lawngreen; */
+    align-self: center; 
+    /* font-size: 24px; */
+}
+
+.card-one > div:nth-child(2) strong {
+    font-size: 24px;
+    margin-left: 5px;
+}
+
+.card-two {
+    position: relative; 
+    background: var(--color-primary);
+    background-image: url("../storage/img/Card-Background.svg");
+    background-position: 30%;
+    width: 200px;
+    height: 311px;
+    color: var(--white-color);
+    padding: 18px 20px 5px 20px;
+    border-radius: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+
+.card-two > div:first-child {
+    /* background: magenta; */
+    font-size: 12px;
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.card-two > div:first-child img{
+    width: 22px;
+    height: 30px;
+}
+
+.card-two > div:last-child {
+    /* background: green; */
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    align-items: flex-end;
+}
+
+.card-two > div:last-child img{
+    width: 50px;
+    height: 50px;
+}
+
+.card-two > div:nth-child(2) {
+    /* background: lawngreen; */
+    align-self: center; 
+    /* font-size: 24px; */
+}
+
+.card-two > div:nth-child(2) strong {
+    font-size: 24px;
+    margin-left: 5px;
+}
+
+
+
 
 
 
