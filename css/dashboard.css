@@ -131,6 +131,10 @@ h1 {
     color: var(--color-primary);
 }
 
+.cards_container{
+    /* padding-left: 15px; */
+}
+
 .Cards-Boxes{
     /* background: darkcyan; */
     margin-top: 10px;
@@ -140,7 +144,7 @@ h1 {
     overflow: hidden;
     overflow-x: scroll;
     scrollbar-width: none;
-    padding: 10px 0px;
+    padding: 10px 15px;
     gap: 22px;
 }
 
