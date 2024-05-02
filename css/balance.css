@@ -8,21 +8,21 @@
 
 
 .header{
-    background: var(--color-primary);
-    /* background-image: url("../storage/img/Card-Background.svg"); */
+    background: transparent;
+    position: relative;
     padding: var(--space-layout-padding-lr);
     padding-top: var(--space-layout-padding-tb);
-    height: 200px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    background: var(--color-primary);
+    z-index: 5;
 }
 
 .header img{
     width: 30px;
 }
+
 
 .header__Main{
     display: flex;
@@ -39,7 +39,28 @@ h1 {
     color: var(--white-color);
 }
 
+body{
+    overflow: hidden;
+}
 
+
+.first_circle{
+    background: var(--color-primary);
+    background-image: url("../storage/img/Card-Background.svg");
+    height: 60%;
+    width: 100%;
+    display: flex;
+    border-radius: 50%;
+    position: absolute;
+    top: -29%;
+    /* left: -10%; */
+    z-index: 0;
+}
+
+.top_circle{
+    border-radius: 50%;
+    background: var(--color-secondary);
+}
 
 
 
