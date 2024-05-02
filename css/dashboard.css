@@ -140,7 +140,7 @@ h1 {
     overflow: hidden;
     overflow-x: scroll;
     scrollbar-width: none;
-    padding: 10px 5px;
+    padding: 10px 0px;
     gap: 22px;
 }
 
