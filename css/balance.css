@@ -62,7 +62,7 @@ body{
     font-family: "SF-Pro-Text-Bold";
     color: var(--white-color);
     position: absolute;
-    top: 320px;
+    top: 275px;
     border-radius: 50%;
     height: 180px ;
     width: 180px;
@@ -76,6 +76,45 @@ body{
 .top_circle h3, strong{
     font-size: 24px;
 }
+
+.buttons{
+    /* background: red; */
+    margin-top: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.Assets-button{
+    background: var(--color-primary);
+    color: var(--white-color);
+    height: 30px;
+    width: 80px;
+    border-radius: 40px;
+    border: none
+
+}
+
+.Debt-button{
+    background: var(--white-color);
+    color: var(--color-secondary);
+    height: 30px;
+    width: 80px;
+    border-radius: 40px;
+    border: 2px solid var(--color-secondary); 
+}
+
+.Income-button{
+    background: var(--white-color);
+    color: var(--color-tertiary);
+    height: 30px;
+    width: 80px;
+    border-radius: 40px;
+    border: 2px solid var(--color-tertiary);
+}
+
+
 
 
 
