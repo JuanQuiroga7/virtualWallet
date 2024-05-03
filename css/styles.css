@@ -165,6 +165,12 @@ progress[value] {
     gap: 22px;
 }
 
+.Activities img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+} 
+
 .Activities div{
     background: var(--white-color);
     color: var(--color-primary);
@@ -178,6 +184,7 @@ progress[value] {
     justify-content: center;
     box-shadow: 0px 0px 15px var(--color-tertiary);
     flex-shrink: 0;
+    gap: 5px;
 }
 
 .Transactions__h3{
