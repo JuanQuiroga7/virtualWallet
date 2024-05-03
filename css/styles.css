@@ -6,9 +6,22 @@
     box-sizing: border-box;
 }
 
-body{
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../storage/img/New-backg.jpg");
+    background-size: cover;
+    filter: brightness(50%);
+    z-index: -1;
+}
+
+body {
     background-color: var(--color-primary);
-    background-image: url("../storage/img/Group.png");
+    position: relative;
 }
 
 .header{
