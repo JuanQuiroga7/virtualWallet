@@ -206,6 +206,12 @@ progress[value] {
     justify-content: space-between;
 }
 
+.Transactions__div img{
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+}
+
 .Transactions__div strong{
     font-family: "SF-Pro-Text-Bold";
     color: var(--color-primary);
