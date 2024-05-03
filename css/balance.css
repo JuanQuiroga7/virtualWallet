@@ -144,26 +144,26 @@ body{
     width: 100%;
 }
 
-.footer__ul {
+.footer__ul{
     background: var(--color-primary);
-    height: 64px;
+    height: 60px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    gap: 10px;
+    gap: 12px;
     list-style: none;
 }
 
-.footer__ul li a {
+.footer__ul li a{
     /* background: green; */
     width: 24px;
     height: 24px;
 }
 
-.footer__ul li a img {
+.footer__ul li a img{
     object-fit: contain;
     /* background: mediumturquoise; */
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
 }
