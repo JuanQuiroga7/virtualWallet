@@ -63,7 +63,7 @@ h1 {
 }
 
 .box__image {
-    background: #E1FFEF;
+    background: #84c9d1;
     position: absolute;
     display: flex;
     justify-content: flex-end;
@@ -151,8 +151,8 @@ h1 {
 .card-one {
     position: relative; 
     background: var(--color-primary);
-    background-image: url("../storage/img/Card-Background.svg");
-    background-position: 30%;
+    background-image: url("../storage/img/pexels-thiagomobile-3343801.jpg");
+    background-position: cover;
     width: 200px;
     height: 311px;
     margin-bottom: 60px;
@@ -204,7 +204,7 @@ h1 {
 .card-two {
     position: relative; 
     background: var(--color-primary);
-    background-image: url("../storage/img/Card-Background.svg");
+    background-image: url("../storage/img/cardNew2.jpg");
     background-position: 30%;
     width: 200px;
     height: 311px;
